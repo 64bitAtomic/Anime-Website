@@ -5,6 +5,7 @@
     <p style="font-size: 18px; color: #87CEEB;">
         Welcome to the <strong>AniPortal!</strong> Explore and manage a comprehensive collection of anime series and movies.
     </p>
+
 </div>
 
 <div align="center">
@@ -107,19 +108,19 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
     </p>
 
    <p>
-      <a href="https://wa.me/your-whatsapp-number" target="_blank">
+      <a href="https://wa.me/+919770869177" target="_blank">
          <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
       </a>
-      <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">
+      <a href="https://www.linkedin.com/in/mohammad-zaid-khan-020199260" target="_blank">
          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
       </a>
-      <a href="https://your-website.com" target="_blank">
+      <a href="https://innospark.netlify.app/" target="_blank">
          <img src="https://img.shields.io/badge/Website-1E90FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
       </a>
-      <a href="https://instagram.com/your-instagram-id" target="_blank">
+      <a href="https://www.instagram.com/mzaidkhan2004?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
          <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
       </a>
-      <a href="mailto:your-email@example.com" target="_blank">
+      <a href="zk286187@gmail.com" target="_blank">
          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
       </a>
    </p>
