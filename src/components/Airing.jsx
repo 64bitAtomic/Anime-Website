@@ -46,11 +46,16 @@ const AiringStyle = styled.div`
     grid-gap: 1.5rem;
     background-color: #1e1e1e;
     border-top: 5px solid #4a5568;
+    box-shadow: 0px 4px 10px rgba(0, 170, 255, 0.3);
 
     a {
       height: 500px;
       border-radius: 7px;
       border: 3px solid #4a5568;
+      transition: transform 0.3s ease-in-out;
+    }
+    a:hover {
+      transform: translateY(-10px);
     }
 
     a img {

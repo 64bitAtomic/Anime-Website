@@ -79,13 +79,40 @@ npm install
 npm start
 ```
 
-## Contributing
+<div align="center">
+    <h2 style="font-size: 28px; color: #FF8C00; font-family: Arial, sans-serif; border-bottom: 2px solid #FF8C00; display: inline-block; padding-bottom: 5px;">
+        📸 Screenshots
+    </h2>
+    <p style="font-size: 18px; color: #E0E0E0;">
+        Below are some snapshots of the project in action:
+    </p>
+    
+   <p align="center">
+      <img src="./img/1.png" alt="Screenshot 1" width="70%">
+      <br>Screenshot 1 - Homepage
+   </p>
 
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+   <p align="center">
+      <img src="./img/3.png" alt="Screenshot 2" width="70%">
+      <br>Screenshot 2 - Single Anime Component (info)
+   </p>
+   <p align="center">
+      <img src="./img/4.png" alt="Screenshot 2" width="70%">
+      <br>Screenshot 3 - Anime Component (trailer)
+   </p>
+   <p align="center">
+      <img src="./img/5.png" alt="Screenshot 2" width="70%">
+      <br>Screenshot 4 -  Anime INfo Component (Characters)
+   </p>
+   <p align="center">
+      <img src="./img/6.png" alt="Screenshot 2" width="70%">
+      <br>Screenshot 5 - Charcater Component (gallery)
+   </p>
+   <p align="center">
+      <img src="./img/7.png" alt="Screenshot 2" width="70%">
+      <br>Screenshot 6 - Responsive Design
+   </p>
+</div>
 
 <div align="center">
     <h2 style="font-size: 28px; color: #00BFFF; font-family: Arial, sans-serif; border-bottom: 2px solid #00BFFF; display: inline-block; padding-bottom: 5px;">
@@ -120,7 +147,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
       <a href="https://www.instagram.com/mzaidkhan2004?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
          <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
       </a>
-      <a href="zk286187@gmail.com" target="_blank">
+      <a href="mailto:zk286187@gmail.com" target="_blank">
          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
       </a>
    </p>

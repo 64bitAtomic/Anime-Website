@@ -104,7 +104,7 @@ const HomePage = () => {
     </HomePageStyled>
   );
 };
-
+//#1b346c
 // const HomePageStyled = styled.div`
 //   background-color: #ededed;
 //   header {
@@ -166,8 +166,10 @@ const HomePage = () => {
 //   }
 // `;
 const HomePageStyled = styled.div`
+  //background-color: #2a3039;
   background-color: #1e1e1e;
   color: #00aaff;
+  //color: #e93333;
   min-height: 100vh;
   box-shadow: 0px 4px 10px rgba(0, 170, 255, 0.3);
 
@@ -216,6 +218,7 @@ const HomePageStyled = styled.div`
       justify-content: center;
       margin-bottom: 2rem;
       background: linear-gradient(135deg, #00aaff, #003973);
+      //background: linear-gradient(135deg, #e93333, #003973);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -237,6 +240,7 @@ const HomePageStyled = styled.div`
         font-size: 1.2rem;
         background-color: #333;
         color: #00aaff;
+        //color: #e93333;
         cursor: pointer;
         transition: all 0.4s ease-in-out;
         font-family: inherit;
@@ -285,6 +289,7 @@ const HomePageStyled = styled.div`
           transform: translateY(-50%);
           background-color: #444;
           color: #00bcd4;
+          //color: #ffe974;
           border: none;
           padding: 0.7rem 1rem;
           border-radius: 30px;

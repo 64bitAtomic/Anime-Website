@@ -42,7 +42,6 @@ const AnimeItem = () => {
     );
     const data = await response.json();
     setCharacters(data.data);
-    console.log(data.data);
   };
 
   useEffect(() => {

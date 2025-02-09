@@ -73,12 +73,14 @@ const PopularStyle = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 1.5rem;
     background-color: #1e1e1e;
+    // background-color: #2a3039;
     border-top: 5px solid #4a5568;
 
     a {
       height: 500px;
       border-radius: 7px;
       border: 3px solid #4a5568;
+      transition: transform 0.3s ease-in-out;
     }
 
     a img {
@@ -86,6 +88,11 @@ const PopularStyle = styled.div`
       height: 100%;
       object-fit: cover;
       border-radius: 5px;
+      box-shadow: 0px 4px 10px rgba(0, 170, 255, 0.3);
+    }
+
+    a:hover {
+      transform: translateY(-10px);
     }
 
     @media (max-width: 768px) {
