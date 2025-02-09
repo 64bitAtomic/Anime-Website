@@ -14,6 +14,7 @@ const HomePage = () => {
     getAiringAnime,
     getUpcomingAnime,
     search,
+    setSearch,
   } = useGlobalContext();
   const [rendered, setRendered] = useState("popular");
   const switchComponent = () => {
@@ -61,13 +62,14 @@ const HomePage = () => {
                 onChange={handleChange}
               />
               <button type="submit">
-                Search<i class="fas fa-search"></i>
+                Search<i className="fas fa-search"></i>
               </button>
             </div>
           </form>
           <div className="filter-btn popular-filter">
             <button
               onClick={() => {
+                setSearch("");
                 setRendered("popular");
                 getPopularAnime();
               }}
@@ -83,7 +85,7 @@ const HomePage = () => {
                 getAiringAnime();
               }}
             >
-              Airing<i class="fas fa-broadcast-tower"></i>
+              Airing<i className="fas fa-broadcast-tower"></i>
             </button>
           </div>
           <div className="filter-btn upcoming-filter">
@@ -93,7 +95,7 @@ const HomePage = () => {
                 getUpcomingAnime();
               }}
             >
-              Upcoming<i class="fas fa-calendar-alt"></i>
+              Upcoming<i className="fas fa-calendar-alt"></i>
             </button>
           </div>
         </div>

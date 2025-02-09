@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useGlobalContext } from "../context/global";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -11,7 +11,7 @@ const Popular = ({ rendered }) => {
       return popularAnime?.map((anime) => {
         return (
           <Link to={`/anime/${anime.mal_id}`} key={anime.mal_id}>
-            <img src={anime.images.jpg.large_image_url} alt="" srcset="" />
+            <img src={anime.images.jpg.large_image_url} alt="" />
           </Link>
         );
       });
@@ -19,12 +19,13 @@ const Popular = ({ rendered }) => {
       return searchResults?.map((anime) => {
         return (
           <Link to={`/anime/${anime.mal_id}`} key={anime.mal_id}>
-            <img src={anime.images.jpg.large_image_url} alt="" srcset="" />
+            <img src={anime.images.jpg.large_image_url} alt="" />
           </Link>
         );
       });
     }
   };
+
   return (
     <PopularStyle>
       <div className="popular-anime">{conditionalRender()}</div>
@@ -90,6 +91,9 @@ const PopularStyle = styled.div`
     @media (max-width: 768px) {
       padding: 1rem;
       grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      a {
+        height: 300px;
+      }
     }
   }
 `;

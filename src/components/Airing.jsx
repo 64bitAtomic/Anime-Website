@@ -12,7 +12,7 @@ const Airing = ({ rendered }) => {
       return airingAnime?.map((anime) => {
         return (
           <Link to={`/anime/${anime.mal_id}`} key={anime.mal_id}>
-            <img src={anime.images.jpg.large_image_url} alt="" srcset="" />
+            <img src={anime.images.jpg.large_image_url} alt="" />
           </Link>
         );
       });
@@ -20,7 +20,7 @@ const Airing = ({ rendered }) => {
       return searchResults?.map((anime) => {
         return (
           <Link to={`/anime/${anime.mal_id}`} key={anime.mal_id}>
-            <img src={anime.images.jpg.large_image_url} alt="" srcset="" />
+            <img src={anime.images.jpg.large_image_url} alt="" />
           </Link>
         );
       });
@@ -63,6 +63,9 @@ const AiringStyle = styled.div`
     @media (max-width: 768px) {
       padding: 1rem;
       grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      a {
+        height: 300px;
+      }
     }
   }
 `;

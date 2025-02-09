@@ -17,11 +17,11 @@ const GlobalStyle = createGlobalStyle`
             width: 7px;
         }
         &::-webkit-scrollbar-thumb{
-            background-color: #27AE60;
+            background-color:  #00aaff;
             border-radius: 10px;
         }
         &::-webkit-scrollbar-track{
-            background-color: #EDEDED;
+            background-color:rgb(0, 0, 0);
         }
 }
 `;

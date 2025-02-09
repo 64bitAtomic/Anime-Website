@@ -118,6 +118,7 @@ export const GlobalContextProvider = ({ children }) => {
         handleChange,
         handleSubmit,
         searchAnime,
+        setSearch,
         getPopularAnime,
         getAiringAnime,
         getUpcomingAnime,

@@ -23,7 +23,7 @@ const Gallery = () => {
         </Link>
       </div>
       <div className="big-image">
-        <img src={picture[index]?.jpg.image_url} alt="" srcset="" />
+        <img src={picture[index]?.jpg.image_url} alt="" />
       </div>
       <div className="small-images">
         {picture.map((picture, i) => {
